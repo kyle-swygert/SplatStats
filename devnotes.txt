@@ -13,3 +13,6 @@ connect all of the components that are used to denote the current gamemode-stage
 
 
 for the current status group of objects, I want the weapon dropDown to be dependent on the weaponType drop down. I think I could just create a general weaponDropDown, then whenever the weaponType drop down changes, change which dropDown is being used by the general weaponDropDown.
+
+
+when the user wants to go to a different tab in the program, just change the visibility of the components in the GUI. There is no need to reuse the same components in a different spot for this program since it is not very intensive at all.
