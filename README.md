@@ -1,2 +1,1 @@
-# SplatStats
-Stat tracking program for the game Splatoon 2
+# SplatStats: Stat Tracking program for Splatoon 2

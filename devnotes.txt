@@ -1,0 +1,18 @@
+have tab buttons at the bottom of the window.
+when a tab button is pressed, change the layout of items that are on the screen.
+    ex) Data Input, View Stats, Settings.
+        if any of these buttons are pushed, then change the objects that are on the screen.
+
+
+
+save the data in the program everytime that the tabs are changed and when the program closes.
+
+when the user enters the gamemode-stage-weapon-killl line, reset the dropdown menu option to the default.
+
+connect all of the components that are used to denote the current gamemode-stage-weapon-kill as a single cohesive item. could try to make a class for this object in the GUI.
+
+
+for the current status group of objects, I want the weapon dropDown to be dependent on the weaponType drop down. I think I could just create a general weaponDropDown, then whenever the weaponType drop down changes, change which dropDown is being used by the general weaponDropDown.
+
+
+when the user wants to go to a different tab in the program, just change the visibility of the components in the GUI. There is no need to reuse the same components in a different spot for this program since it is not very intensive at all.

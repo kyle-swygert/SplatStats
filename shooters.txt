@@ -1,0 +1,39 @@
+.52 Gal
+.52 Gal Deco
+.96 Gal
+.96 Gal Deco
+Aerospray MG
+Aerospray RG
+Blaster
+Clash Blaster
+Clash Blaster Neo
+Custom Blaster
+Custom Jet Squelcher
+Custom Range Blaster
+Custom Splattershot Jr.
+Foil Squeezer
+Forge Splattershot Pro
+H-3 Nozzlehose
+H-3 Nozzlehose D
+Hero Blaster Replica
+Hero Shot Replica
+Jet Squelcher
+L-3 Nozzlenose
+L-3 Nozzlenose D
+Luna Blaster
+Luna Blaster Neo
+N-ZAP '85
+N-ZAP '89
+Neo Splash-o-matic
+Neo Sploosh-o-matic
+Range Blaster
+Rapid Blaster
+Rapid Blaster Deco
+Rapid Blaster Pro
+Splash-o-matic
+Splattershot
+Splattershot Jr.
+Splattershot Pro
+Sploosh-o-matic
+Squeezer
+Tentatek Splattershot
