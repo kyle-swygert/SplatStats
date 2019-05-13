@@ -6,7 +6,7 @@ import java.io.File
 import java.awt.event.*
 import dropDownMenus.*
 
-class Window : ActionListener {
+class MyWindow : ActionListener {
 
     // fields and data members
 
@@ -28,7 +28,7 @@ class Window : ActionListener {
     var display = JFrame()
     var button = JButton()
     var shooterDropDown = JComboBox<String>(shooters)
-    var currVersion = " - alpha v0.1"
+    var currVersion = " - alpha v0.2"
     var menu = JMenuBar()
 
     // constructors

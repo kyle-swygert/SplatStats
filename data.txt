@@ -1,0 +1,1 @@
+{"stage":"newStage","weapon":"YourWeapon","kills":123,"specialDeploys":456}

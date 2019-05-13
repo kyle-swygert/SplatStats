@@ -1,71 +1,38 @@
 import window.*
 import java.io.*
 import java.util.*
+import java.awt.*
+import java.awt.event.WindowEvent
+import stat.*
+
+import com.google.gson.*
+import java.lang.Exception
 
 fun main() {
 
+    //var testWindow = MyWindow()
 
 
 
-//    val file = File(roller).forEachLine { dictionary.add(it) }
-
-    var yuck = Window()
-
-    //yuck.dropDown
-
-//    dictionary.forEach { println(it) }
+    var gson = Gson()
 
 
-//    file.bufferedReader().useLines { lines -> lines.forEach { dictionary.add(it) } }
-//
-//    for (item in dictionary) {
-//        println(item)
-//    }
+    // object to json
+    val mystat = Stat("mystage", "myweapon", 42, 12)
+    val mystatjson = gson.toJson(mystat)
+    File("testing.txt").writeText(mystatjson)
 
 
-//    var window = JFrame()
-//
-//    window.setSize(1000, 500)
-//    var button = JButton("click")
-//
-//    var dropDown = JComboBox<String>()
-//
-//    window.title = "SplatStats"
-//
-//    button.doClick()
-//
-//
-//
-//    dropDown.setBounds(200, 200, 300, 50)
-//
-//    window.add(dropDown)
-//
-//    button.setBounds(100, 100, 100, 100)
-//
-//    window.add(button)
-//
-//    // this lets the button have the correct dimensions specified in the constructor.
-//    window.layout = null
-//
-//    // makes the window visible on the computer
-//    window.setVisible(true)
-//
-//
-//    var open = true
-//
+
+    // json to object
+    var testing = File("data.txt")
+    var statFromFile = testing.readText()
+    var statFromJson: Stat = gson.fromJson<Stat>(statFromFile, Stat::class.java)
+    // NOTE: remember to use the className::class.java for converting json to an object to work properly!!!
 
 
-    // how to close the program when the window is closed. I want the program to run only when the window is up on the screen.
+    println("stat from file as an object $statFromJson")
 
 
-//    while (open == true) {
-//
-//
-//
-//
-//
-//    }
 
 }
-
-
