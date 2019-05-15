@@ -12,5 +12,8 @@ class DropDownList : JComboBox<String> {
         File(fileName).forEachLine { addItem(it) }
     }
 
+    // empty constructor
+    constructor()
+
 }
 

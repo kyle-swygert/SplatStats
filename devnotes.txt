@@ -16,3 +16,9 @@ for the current status group of objects, I want the weapon dropDown to be depend
 
 
 when the user wants to go to a different tab in the program, just change the visibility of the components in the GUI. There is no need to reuse the same components in a different spot for this program since it is not very intensive at all.
+
+
+Important note: when creating an application that uses a form, there cannot be any imperative statement calls in the program. This will cause the forms to not show all the correct pieces of information as well as the program not working as intended.
+
+
+spilt the application into the GUI elements that holds the processing parts, then inside the processing parts is where all of the data is processed, written, and read per the users action.
